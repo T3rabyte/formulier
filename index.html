@@ -1,0 +1,146 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8">
+  <title>Formulier</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body lang="en">
+  <h1>Jouw mening</h1>
+  <p>Dit formulier stelt wat vragen over uw mening binnen de politiek.</p>
+
+
+
+  <form action="http://bla.hosts.ma-cloud.nl/pop.php" method="get">
+    <label>Name :
+  <input type = "text" name="custname" placeholder="first and last name" required="required" autofocus /></label>
+  <br/>
+  <label>E-mail : <input type = "email" placeholder="25486@ma-web.nl" name="email" required="required" /></label>
+
+    <fieldset>
+  <legend>Partij</legend>
+  <br/>
+  <p>Op welke partijen zou u willen stemmen?</p>
+    <input type="checkbox" name="CDA" value="CDA">CDA</input>
+    <input type="checkbox" name="CU" value="CU">CU</input>
+    <input type="checkbox" name="D66" value="D66">D66</input>
+    <input type="checkbox" name="PvdA" value="PvdA">PvdA</input>
+    <input type="checkbox" name="GL" value="GL">GL</input>
+    <input type="checkbox" name="PvdD" value="PvdD">PvdD</input>
+    <input type="checkbox" name="SGP" value="SGP">SGP</input>
+    <input type="checkbox" name="SP" value="SP">SP</input>
+    <input type="checkbox" name="VVD" value="VVD">VVD</input>
+    <input type="checkbox" name="50+" value="50+">50+</input>
+    <input type="checkbox" name="DENK" value="DENK">DENK</input>
+    <input type="checkbox" name="FVD" value="FVD">FVD</input>
+  <br/>
+  </fieldset>
+
+  <fieldset>
+    <legend>Luisteren</legend>
+    <p>Vind u dat de partij luistert naar haar kiezers?</p>
+    <label>CDA
+    <select name="CDA_keuze" >
+      <option value="eens">eens</option>
+       <option value="oneens">oneens</option>
+       <option value="selection" selected></option>
+    </select>
+  </label>
+  <label>CU
+    <select name="CU_keuze" >
+      <option value="eens">eens</option>
+       <option value="oneens">oneens</option>
+       <option value="selection" selected></option>
+    </select>
+  </label>
+  <label>D66
+    <select name="CU_keuze" >
+      <option value="eens">eens</option>
+       <option value="oneens">oneens</option>
+       <option value="selection" selected></option>
+    </select>
+  </label>
+  <label>VVD
+    <select name="CU_keuze" >
+      <option value="eens">eens</option>
+       <option value="oneens">oneens</option>
+       <option value="selection" selected></option>
+    </select>
+  </label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Charisma</legend>
+    <p>Op een schaal van 1 tot 10, hoe charismatisch vind u de lijsttrekkers?</p>
+
+    <p>Sybrand van Haersma Buma
+    <input type="radio" name="Buma" value="1">1</input>
+    <input type="radio" name="Buma" value="2">2</input>
+    <input type="radio" name="Buma" value="3">3</input>
+    <input type="radio" name="Buma" value="4">4</input>
+    <input type="radio" name="Buma" value="5">5</input>
+    <input type="radio" name="Buma" value="6">6</input>
+    <input type="radio" name="Buma" value="7">7</input>
+    <input type="radio" name="Buma" value="8">8</input>
+    <input type="radio" name="Buma" value="9">9</input>
+    <input type="radio" name="Buma" value="10">10</input>
+  </p>
+  <p> Alexander Pechtold
+    <input type="radio" name="Pechtold" value="1">1</input>
+    <input type="radio" name="Pechtold" value="2">2</input>
+    <input type="radio" name="Pechtold" value="3">3</input>
+    <input type="radio" name="Pechtold" value="4">4</input>
+    <input type="radio" name="Pechtold" value="5">5</input>
+    <input type="radio" name="Pechtold" value="6">6</input>
+    <input type="radio" name="Pechtold" value="7">7</input>
+    <input type="radio" name="Pechtold" value="8">8</input>
+    <input type="radio" name="Pechtold" value="9">9</input>
+    <input type="radio" name="Pechtold" value="10">10</input>
+  </p>
+  <p> Jesse Klaver
+    <input type="radio" name="Klaver" value="1">1</input>
+    <input type="radio" name="Klaver" value="2">2</input>
+    <input type="radio" name="Klaver" value="3">3</input>
+    <input type="radio" name="Klaver" value="4">4</input>
+    <input type="radio" name="Klaver" value="5">5</input>
+    <input type="radio" name="Klaver" value="6">6</input>
+    <input type="radio" name="Klaver" value="7">7</input>
+    <input type="radio" name="Klaver" value="8">8</input>
+    <input type="radio" name="Klaver" value="9">9</input>
+    <input type="radio" name="Klaver" value="10">10</input>
+  </p>
+  <p> Mark Rutte
+    <input type="radio" name="Rutte" value="1">1</input>
+    <input type="radio" name="Rutte" value="2">2</input>
+    <input type="radio" name="Rutte" value="3">3</input>
+    <input type="radio" name="Rutte" value="4">4</input>
+    <input type="radio" name="Rutte" value="5">5</input>
+    <input type="radio" name="Rutte" value="6">6</input>
+    <input type="radio" name="Rutte" value="7">7</input>
+    <input type="radio" name="Rutte" value="8">8</input>
+    <input type="radio" name="Rutte" value="9">9</input>
+    <input type="radio" name="Rutte" value="10">10</input>
+  </p>
+  </fieldset>
+
+  <fieldset>
+    <legend>Toevoeging</legend>
+    <p>Wilt u nog een beschrijving toevoeging voor bij uw antwoorden (u kunt dit leeg laten in dien van toepassing)?</p>
+    <textarea name="toevoegingen" rows="8" cols="55">
+    </textarea>
+  </fieldset>
+
+   <br/>
+  <input type="submit" value="Submit Form"/>
+  </form>
+<br/>
+<div id="validatie">
+    <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+        <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5"></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+        <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+    </a>
+</div>
+</body>
+</html>
